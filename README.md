@@ -52,3 +52,7 @@ En la siguiente pantalla que nos sale, nos da la opción (muy recomendable) de a
 Ahora nuestros cambios están incluidos en un *pull request* para que el encargado de revisar los cambios les dé el visto bueno o pida algunos cambios para mejorarlos.
 
 ![](Capturas/12.png)
+
+Cuando el revisor acepta los cambios aparece un aviso y, si vamos a nuestro *pull request* vemos el estado en que se encuentra (en este caso, aprobado) y quién ha sido el revisor. También vemos que el revisor ha fusionado nuestra rama con `main` y que, además, al no hacer falta ya, la ha borrado.
+
+![](Capturas/13.png)
