@@ -64,3 +64,29 @@ Ahora nuestros cambios están incluidos en un *pull request* para que el encarga
 Cuando el revisor acepta los cambios aparece un aviso y, si vamos a nuestro *pull request* vemos el estado en que se encuentra (en este caso, aprobado) y quién ha sido el revisor. También vemos que el revisor ha fusionado nuestra rama con `main` y que, además, al no hacer falta ya, la ha borrado.
 
 ![](Capturas/13.png)
+
+Vayamos ahora a mirar qué *pull requests* (PR) tenemos para revisar. Para ello nos dirigimos a la pestaña homónima y observamos que hay dos PR todavía abiertos. Elegimos uno, por ejemplo, el de *Sandra branch*.
+
+![](Capturas/14.png)
+
+En él vemos que contiene cinco *commits* con su respectivo mensaje que nos aclara qué aportan al proyecto. Un aspecto importante a destacar de esta pantalla es que nos informa de si la fusión de la rama con `main` se puede realizar limpiamente (sin conflictos que resolver). Si clicamos en la pestaña de *Files changed* podremos ver qué archivos han cambiado, tanto modificaciones como creaciones o deleciones.
+
+![](Capturas/15.png)
+
+En la pestaña de archivos modificados vemos todos los archivos que se han cambiado, las líneas añadidas y las eliminadas. Así, el revisor tiene una visión de todo lo que se ha hecho y puede decidir qué hacer con el *pull request*.
+
+![](Capturas/16.png)
+
+En este caso como que todos los cambios son acertados y no presentan ningún conflicto con el código que ya estaba presente en la rama `main`, se decide aceptar el PR. Para ello, se da clic en el botón verde *Merge pull request* que salía en la pestaña *Conversation* que hemos visto anteriormente. Se nos pedirá una confirmación de seguridad y clicamos en *Confirm merge*.
+
+![](Capturas/17.png)
+
+Una vez confirmado nos informa de que la rama de trabajo se puede borrar ya que está a la par con la `main` y lo hacemos.
+
+![](Capturas/18.png)
+
+La siguiente notificación nos informa de que hemos borrado la rama.
+
+![](Capturas/19.png)
+
+Ahora los cambios introducidos en la rama recién borrada ya se encuentran en producción.
